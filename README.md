@@ -24,6 +24,8 @@
 ### 1. 启动后端
 
 ```bash
+# 如果 NODE_ENV=production，需要临时设为 development
+$env:NODE_ENV="development"
 cd server
 npm install
 npm run dev
@@ -34,6 +36,8 @@ npm run dev
 ### 2. 启动前端
 
 ```bash
+# 如果 NODE_ENV=production，需要临时设为 development
+$env:NODE_ENV="development"
 cd client
 npm install
 npm run dev
